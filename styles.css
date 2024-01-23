@@ -1,0 +1,102 @@
+html{
+
+  height: 100%;
+  box-sizing:border-box;
+  font-family: arial;
+  padding: 5px;
+
+}
+body{
+  position:relative;
+  margin:0;
+  min-height:100%;
+  padding-bottom:6.74rem;
+  box-sizing: inherit;
+  font-family: Arial;
+  
+}
+.personal-image{
+ max-width: 100%;
+ height:auto;
+ display:block;
+ border-radius: 50%;
+ margin-left:auto;
+ margin-right: auto;
+ width:50%;
+ 
+}
+.table{
+  border: none;
+}
+
+.nav-button {
+  background-color: #af704c; 
+  border: none;
+  color: rgb(239, 228, 228);
+  padding:20px;
+  text-align: center;
+  text-decoration:none;
+  display: block;
+  font-size: 22px;
+  border-radius: 5px;
+  font-weight: bold;
+  word-spacing: 30px;
+
+}
+
+.nav-button:hover {
+  background-color: #af704c;
+  opacity: 0.9;
+  
+
+}
+a:link, a:visited {
+  color: white;
+  cursor: pointer;
+  transition: 1s;
+  
+
+}
+#welcome {
+  text-align: center;
+  color:red;
+}
+.image-div{
+
+  display:grid;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #af704c;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 5px;
+
+}
+
+footer p, footer a {
+  margin: 5px 0;
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline
+}
+div{
+
+  display:grid;
+  text-align: justify;
+  
+}
+
+@media (max-width:700px){
+  h1, #welcome { color: rgb(127, 129, 255);
+    }
+}
